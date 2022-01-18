@@ -1,0 +1,9 @@
+.navbar{
+    text-align: center;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+}
