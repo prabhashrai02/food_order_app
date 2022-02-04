@@ -1,15 +1,16 @@
 import CartIcon from '../Cart/CartIcon';
+import './HeaderCartButton.css';
 
-const HeaderCartButton = props => {
+const HeaderCartButton = (props) => {
     return (
-        <button>
-            <span>
+        <button className="button">
+            <span className="icon">
                 <CartIcon />
             </span>
             <span>Your Cart</span>
-            <span>3</span>
+            <span className="badge">3</span>
         </button>
-    )
+    );
 };
 
 export default HeaderCartButton;
