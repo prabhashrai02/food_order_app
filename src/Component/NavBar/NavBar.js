@@ -1,5 +1,6 @@
 import {Fragment} from 'react';
 import './NavBar.css';
+import mealsImage from '../../Assets/meal.webp';
 
 const NavBar = () => {
     return(
@@ -7,6 +8,7 @@ const NavBar = () => {
         <div className='navbar'>
             Order Your Food
         </div>
+        <img src= {mealsImage} alt= "A table full of delicious food" />
         </Fragment>
     )
 } 
