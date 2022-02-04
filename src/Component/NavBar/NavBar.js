@@ -8,7 +8,9 @@ const NavBar = () => {
         <div className='navbar'>
             Order Your Food
         </div>
-        <img src= {mealsImage} alt= "A table full of delicious food" />
+        <div className='main_img'>
+            <img src= {mealsImage} alt= "A table full of delicious food" />
+        </div>
         </Fragment>
     )
 } 
